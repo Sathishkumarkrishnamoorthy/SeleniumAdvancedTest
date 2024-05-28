@@ -25,8 +25,8 @@ public class AdvancedSelenium {
 
 	@BeforeMethod
 	public void setup(Method m, ITestContext ctx) throws MalformedURLException {
-		String username = System.getenv("LT_USERNAME") == null ? "thumarbhavin.786" : System.getenv("LT_USERNAME");
-		String authkey = System.getenv("LT_ACCESS_KEY") == null ? "TBcrP05QkFLjiomKmAgX9y4fRdgikSsx7CsAFN5pRFoy8Iu2fj"
+		String username = System.getenv("LT_USERNAME") == null ? "sathishkumarkrish.1309" : System.getenv("LT_USERNAME");
+		String authkey = System.getenv("LT_ACCESS_KEY") == null ? "AbGN6swavlTv8aRM43ZrU9lj7GQnuJ5rbHvMxjxWx8RNZhIyXm"
 				: System.getenv("LT_ACCESS_KEY");
 		String hub = "@hub.lambdatest.com/wd/hub";
 
